@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "HTTP API 2 Assignment for IGME 430",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JLHGD/http-api-assignment-ii.git"
+  },
+  "author": "Jasen Harper",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JLHGD/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/JLHGD/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
